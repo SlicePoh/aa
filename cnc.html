@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+        *{ padding: 0px; margin: 0px;}
+        a{  
+            text-decoration: none;
+        }
+        .ticker{
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+            align-items: center;
+            font-family: 'Nunito', sans-serif;
+        }
+        .title1{
+            background: linear-gradient( to left,#0014ae, #c34cff);
+            color: white;
+            padding:7px 10px;
+            font-size: 0.75rem;
+            border: .5px solid white;
+            border-radius: 15px 0px 0px 15px;
+        }
+        .title1:hover{
+            background: linear-gradient( to left, #0014aed1, #d37cffdc);
+            
+        }
+        .news{
+            display: flex;
+            background: #e3aaff;
+            height: 30px;
+            align-items: center;
+            color: black;
+            font-weight: 700;
+            border-right: 0.1px solid #e3aaff;
+            border-radius: 0px 15px 15px 0px;
+            width: 50vw;
+        }
+    </style>
+    <body>
+        
+        <div class="container">
+            <div class="ticker">
+                <div class="title1">
+                    <b>Course Calendar</b>
+                </div>
+                <div class="news">
+                    <marquee>
+                        <a href="#">
+                            <span>See Our FDP Course Calendar |</span>
+                            <span>| See Our FDP Course Calendar |</span>
+                            <span>| See Our FDP Course Calendar</span> 
+                        </a>
+                    </marquee>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
